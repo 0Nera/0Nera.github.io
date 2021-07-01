@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+	<head>
+	  <meta charset="utf-8" />
+	  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	  <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1" />
+	  <title>Арен Елчинян</title>
+	  <meta name="description" content="Программирование, Разное, генератор паролей." />
+	  <meta name="keywords" content="Арен, Елчинян, android, Программист, game, free" />
+	  <link rel="shortcut icon" sizes="128x128" type="image/png" href="img/favicon.png"/>
+	  <link rel="shortcut icon" sizes="32x32" type="image/png" href="img/favicon32.png"/>
+	  <link rel="preconnect" href="https://fonts.googleapis.com">
+	  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	  <link rel="stylesheet" href="css/style.css">
+	</head>
+	<style>
+		body{
+			font-family: 'Roboto', sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+	</style>
+
+	<body>
+		<!-- Сайдбар -->
+		<div class="sidebar">
+		
+			<a class="active" href="">Главная</a>
+			<a href="blog">Блог</a>
+			<a href="projects">Проекты</a>
+			
+			<div class="progress-container">
+				<div class="progress-bar" id="myBar"></div>
+			</div>
+		</div>
+		
+		<!-- Содержимое страницы -->
+		<div class="content">
+			<h1>Главная</h1><hr>
+				<h2>Обо мне</h2>
+				<div id="about">
+					<strong>Ф.И:</strong> <i>Арен Елчинян</i>&emsp;
+					<strong>Возраст:</strong> <i>15</i>&emsp;
+					<strong>Знания:</strong> <i>C, Python, HTML, CSS, JavaScript</i><br>
+					<strong>Страна:</strong> <i>Россия</i>&emsp;
+					<strong>Город:</strong> <i>Москва</i>&emsp;
+					<strong>Github:</strong> <a href="https://github.com/0Nera" title="Ссылка на мой Github аккаунт" target="_blank">0Nera</a>
+				</div><br><hr>
+				
+				<h2>Мои особенности</h2>
+				<div id="features">
+					<strong>Желание учиться:</strong> <i>70%</i>&emsp;<br>
+					<strong>Любовь к программированию:</strong> <i>100%</i>&emsp;<br>
+					<strong>Баги:</strong> <i>20%</i><br>
+					<strong>Плохой код:</strong> <i>40%</i>&emsp;<br>
+					<strong>Знания языка Си:</strong> <i>25%</i>&emsp;<br>
+					<strong>Знания языка Python и его фреймворка Flask:</strong> <i>25%</i><br>
+				</div><br><hr>
+				
+				<h2>Связь со мной</h2>
+				<div id="contact">
+					<strong>ВКонтакте:</strong> <a href="https://vk.com/0nera" target="_blank">Перейти</a><br><br>
+					<h3>Форма обратной связи</h3>
+					<form action="mailto:slizen.can@gmail.com" enctype="text/plain">
+					<p><textarea name="comment" placeholder="Введите сообщение"></textarea></p>
+					<p><button type="submit">Отправить</button></p>
+					<p><i style="color:gray; font-size=12px">Будет отправлено на Email</i></p>
+					</form>
+					<br><br>
+				</div>
+				<br><br><hr>
+			<div id="footer">
+				<p>&copy;Елчинян Арен 2021 год</p>
+			</div>
+		</div>
+	</body>
+
+	<script type="text/javascript">
+		window.onscroll = function() {myFunction()};
+
+		function myFunction() {
+		  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+		  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+		  var scrolled = (winScroll / height) * 100;
+		  document.getElementById("myBar").style.width = scrolled + "%";
+		}
+
+		if (localStorage.getItem('0Nera_cookie')!=1){
+			alert('У нас используются куки');
+			localStorage.setItem('0Nera_cookie', 1);
+		}
+	</script>
+</html>
