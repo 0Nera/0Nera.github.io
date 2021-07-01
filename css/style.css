@@ -1,0 +1,158 @@
+	/* Боковое навигационное меню */
+	.sidebar {
+	  margin: 0;
+	  padding: 0;
+	  width: 200px;
+	  background-color: #f1f1f1;
+	  position: fixed;
+	  height: 100%;
+	  overflow: auto;
+	}
+
+	/* Сайдбар ссылки */
+	.sidebar a {
+		-webkit-transition-duration: 0.4s; /* Safari */
+		transition-duration: 0.4s;
+		display: block;
+		color: black;
+		padding: 16px;
+		text-decoration: none;
+	}
+
+	/* Активная/текущая ссылка */
+	.sidebar a.active {
+	  background-color: #57007f;
+	  color: white;
+	}
+
+	/* Ссылки при наведении мыши */
+	.sidebar a:hover:not(.active) {
+	  background-color: #555;
+	  color: white;
+	}
+
+	/* Содержание страницы. Значение свойства margin-left должно соответствовать значению свойства width боковой панели */
+	div.content {
+	  margin-left: 200px;
+	  padding: 1px 16px;
+	  height: 1000px;
+	}
+
+	/* На экранах шириной менее 700 пикселей превратить боковую панель в верхнюю панель */
+	@media screen and (max-width: 700px) {
+	  .sidebar {
+		width: 100%;
+		height: auto;
+		position: relative;
+	  }
+	  .sidebar a {float: left;}
+	  div.content {margin-left: 0;}
+	}
+
+	/* На экранах размером менее 400 пикселей панель отображать вертикально, а не горизонтально */
+	@media screen and (max-width: 400px) {
+	  .sidebar a {
+		text-align: center;
+		float: none;
+	  }
+	}
+	/* Заливка по ширине */
+	table {
+	  width: 100%;
+	}
+
+	/* Таблица в стиле зебры */
+	tr:nth-child(even) {
+	  background-color: #f2f2f2;
+	}
+
+	/* Footer */
+	#footer {
+	  position: fixed;
+	  left: 0;
+	  bottom: 0;
+	  width: 100%;
+	  background-color: grey;
+	  color: white;
+	  text-align: center;
+	}
+
+	/* Картинки */
+	img{
+		width: 100%;
+		max-width: 400px;
+		height: auto;
+	}
+
+	/* для заметок */
+	#danger {
+		background-color: #B200FF;
+		border-left: 6px solid #f44336;
+	}
+
+	/* Полоса прокрутки */
+	.header {
+	  position: fixed;
+	  top: 0;
+	  z-index: 1;
+	  width: 100%;
+	  background-color: #f1f1f1;
+	}
+
+	/* The progress container (grey background) */
+	.progress-container {
+	  width: 100%;
+	  height: 8px;
+	  background: #ccc;
+	}
+
+	/* The progress bar (scroll indicator) */
+	.progress-bar {
+	  height: 8px;
+	  background: #B200FF;
+	  width: 0%;
+	}
+	
+	hr{
+		margin: 0px 0;
+		padding: 0;
+		height: 0;
+		border: none;
+		border-top: 2px dashed #ddd;
+	}
+	
+	i{
+		color: #B200FF;
+	}
+	a{
+		 text-decoration: none;
+		 border: 1px solid black; 
+	}
+	input {
+		width: 100%;
+	}
+	input[type=text], textarea {
+		width: 100%;
+		padding: 12px 20px;
+		margin: 8px 0;
+		box-sizing: border-box;
+		border: 1px solid #555;
+		border-bottom: 2px solid #B200FF;
+		
+	}
+	input[type=submit], button {
+		-webkit-transition-duration: 0.4s; /* Safari */
+		transition-duration: 0.4s;
+		width: 100%;
+		display: block;
+		color: black;
+		padding: 16px;
+		text-decoration: none;
+		background-color: #f1f1f1;
+	}
+	button:hover {
+		background-color: #ddd; /* Green */
+		color: white;
+		background-color: #555;
+		color: white;
+	}
