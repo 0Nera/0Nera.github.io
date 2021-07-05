@@ -13,6 +13,21 @@
 	  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 	  <link rel="stylesheet" href="css/style.css">
 	</head>
+	<!-- Yandex.Metrika counter -->
+	<script type="text/javascript" >
+	   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+	   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+	   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+	   ym(67897255, "init", {
+			clickmap:true,
+			trackLinks:true,
+			accurateTrackBounce:true,
+			webvisor:true
+	   });
+	</script>
+	<noscript><div><img src="https://mc.yandex.ru/watch/67897255" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+	<!-- /Yandex.Metrika counter -->
 	<style>
 		body{
 			font-family: 'Roboto', sans-serif;
@@ -75,6 +90,7 @@
 					</table><br><hr>
 				</div><br><br>
 			<div id="footer">
+				<p>Внимание используются Cookie!</p>
 				<p>&copy;Елчинян Арен 2021 год</p>
 				
 			</div>
@@ -89,11 +105,6 @@
 		  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
 		  var scrolled = (winScroll / height) * 100;
 		  document.getElementById("myBar").style.width = scrolled + "%";
-		}
-
-		if (localStorage.getItem('0Nera_cookie')!=1){
-			alert('У нас используются куки');
-			localStorage.setItem('0Nera_cookie', 1);
 		}
 	</script>
 </html>

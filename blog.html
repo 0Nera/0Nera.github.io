@@ -4,7 +4,7 @@
 	  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	  <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1" />
 	  <title>Блог</title>
-	  <meta name="description" content="Программирование, Разное, генератор паролей." />
+	  <meta name="description" content="Блог обо мне и моих достижениях." />
 	  <meta name="keywords" content="Арен, Елчинян, android, Программист, game, free, blog, блог" />
 	  <link rel="shortcut icon" sizes="128x128" type="image/png" href="img/favicon.png"/>
 	  <link rel="shortcut icon" sizes="32x32" type="image/png" href="img/favicon32.png"/>
@@ -13,6 +13,21 @@
 	  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 	  <link rel="stylesheet" href="css/style.css">
 	</head>
+	<!-- Yandex.Metrika counter -->
+	<script type="text/javascript" >
+	   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+	   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+	   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+	   ym(67897255, "init", {
+			clickmap:true,
+			trackLinks:true,
+			accurateTrackBounce:true,
+			webvisor:true
+	   });
+	</script>
+	<noscript><div><img src="https://mc.yandex.ru/watch/67897255" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+	<!-- /Yandex.Metrika counter -->
 	<style>
 		body{
 			font-family: 'Roboto', sans-serif;
@@ -46,6 +61,7 @@
 					<p>Я создал первую версию моего сайта!</p><br><hr>
 				</div><br><br>
 			<div id="footer">
+				<p>Внимание используются Cookie!</p>
 				<p>&copy;Елчинян Арен 2021 год</p>
 			</div>
 		</div>
@@ -59,11 +75,6 @@
 		  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
 		  var scrolled = (winScroll / height) * 100;
 		  document.getElementById("myBar").style.width = scrolled + "%";
-		}
-
-		if (localStorage.getItem('0Nera_cookie')!=1){
-			alert('У нас используются куки');
-			localStorage.setItem('0Nera_cookie', 1);
 		}
 	</script>
 </html>
