@@ -1,130 +1,187 @@
 <!DOCTYPE html>
-	<head>
-	  <meta charset="utf-8" />
-	  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	  <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1" />
-	  <title>Арен Елчинян</title>
-	  <meta name="description" content="Молодой энтузиаст в сфере IT" />
-	  <meta name="keywords" content="Арен, Елчинян, android, Программист, game, free" />
-	  <link rel="shortcut icon" sizes="128x128" type="image/png" href="img/favicon.png"/>
-	  <link rel="shortcut icon" sizes="32x32" type="image/png" href="img/favicon32.png"/>
-	  <link rel="preconnect" href="https://fonts.googleapis.com">
-	  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-	  <link rel="stylesheet" href="css/style.css">
-	</head>
-	<!-- Yandex.Metrika counter -->
-	<script type="text/javascript" >
-	   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-	   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-	   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-
-	   ym(67897255, "init", {
-			clickmap:true,
-			trackLinks:true,
-			accurateTrackBounce:true,
-			webvisor:true
-	   });
-	</script>
-	<noscript><div><img src="https://mc.yandex.ru/watch/67897255" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-	<!-- /Yandex.Metrika counter -->
-	<style>
-		body{
-			font-family: 'Roboto', sans-serif;
-			margin: 0;
-			padding: 0;
-		}
-	</style>
-
-	<body>
-		<!-- Сайдбар -->
-		<div class="sidebar">
-		
-			<a class="active" href="">Главная</a>
-			<a href="blog">Блог</a>
-			<a href="projects">Проекты</a>
-			
-			<div class="progress-container">
-				<div class="progress-bar" id="myBar"></div>
-			</div>
-		</div>
-		
-		<!-- Содержимое страницы -->
-		<div class="content">
-			<h1>Главная</h1><hr>
-				<h2>Обо мне</h2>
-				<div id="about">
-					<strong>Ф.И:</strong> <i>Арен Елчинян</i>&emsp;
-					<strong>Возраст:</strong> <i>15</i>&emsp;
-					<strong>Знания:</strong> <i>C, Python, HTML, CSS, JavaScript</i><br>
-					<strong>Страна:</strong> <i>Россия</i>&emsp;
-					<strong>Город:</strong> <i>Москва</i>&emsp;
-					<strong>Github:</strong> <a href="https://github.com/0Nera" title="Ссылка на мой Github аккаунт" target="_blank">0Nera</a>
-				</div><br><hr>
-				
-
-				<h2>Мои особенности</h2>
-				<div id="features">
-					<strong>Желание учиться:</strong> <i>70%</i>&emsp;<br>
-					<strong>Любовь к программированию:</strong> <i>100%</i>&emsp;<br>
-					<strong>Баги:</strong> <i>20%</i><br>
-					<strong>Плохой код:</strong> <i>40%</i>&emsp;<br>
-					<strong>Знания языка Си:</strong> <i>26%</i>&emsp;<br>
-					<strong>Знания языка Python и его фреймворка Flask:</strong> <i>25%</i><br>
-				</div><br><hr>
-				
-
-				
-
-
-				<h2>Немного о моих проектах</h2>
-				<div id="projects">
-					<strong><a href="https://synapse-os.github.io/">SynapseOS</a></strong>
-					<p>Операционная система на языке Си. Разрабатываю её чисто для улучшения навыков, но если все будет гладко, то можно использовать как альтернативу KolibriOS.</p>
-
-
-					<strong><a href="https://vk.com/heartcore_games">Ymlu</a></strong>
-					<p>Логический платформер с возможностью модификаций игровых объектов. Изначально я делал его как пример игры на Listview. Но сейчас надо его доработать и перенести на нормальный движок.</p>
-
-
-					<strong><a href="#projects">KolibriRPG</a></strong>
-					<p>Проект для операционной системы KolibriOS. На данный момент заморожен. Я не знаю просто как из него сделать что-то хорошее.</p>
-				</div>
-				
-				<h2>Связь со мной</h2>
-				<div id = "contact">
-					<strong>ВКонтакте:</strong> <a href="https://vk.com/0nera" target="_blank">Перейти</a><br><br>
-					<h3>Форма обратной связи</h3>
-					<form action="mailto:slizen.can@gmail.com" enctype="text/plain">
-					<p><textarea name="comment" placeholder="Введите сообщение"></textarea></p>
-					<p><button type="submit">Отправить</button></p>
-					<p><i style="color:gray; font-size: 12px;">Будет отправлено на Email</i></p>
-					</form>
-					<br><br>
-				</div>
-
-
-				<FONT SIZE="-2">Документ обновлен: 
-					<SCRIPT LANGUAGE="JavaScript">
-						//<!-- 
-							document.writeln(document.lastModified) // -->
-					</SCRIPT>
-				</FONT>
-				<br><br><hr>
-			<div id="footer">
-				<p>&copy;Елчинян Арен 2021 год</p> 
-			</div>
-		</div>
-	</body>
-
-	<script type="text/javascript">
-		window.onscroll = function() {myFunction()};
-
-		function myFunction() {
-		  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-		  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-		  var scrolled = (winScroll / height) * 100;
-		  document.getElementById("myBar").style.width = scrolled + "%";
-		}
-	</script>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="Арен Елчинян" />
+        <title>Арен Елчинян</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container px-5">
+                <a class="navbar-brand" href="#!">Главная</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Главная</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">Блог</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">Проекты</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">Статьи</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Header-->
+        <header class="bg-dark py-5">
+            <div class="container px-5">
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="text-center my-5">
+                            <h1 class="display-5 fw-bolder text-white mb-2">Быстро и качественно</h1>
+                            <p class="lead text-white-50 mb-4">Создаю программы, сайты, игры, мобильные приложения, бэкенд</p>
+                            <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
+                                <a class="btn btn-primary btn-lg px-4 me-sm-3" href="#portfolio">Портфолио</a>
+                                <a class="btn btn-outline-light btn-lg px-4" href="./about#contact">Связаться со мной</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Features section-->
+        <section class="py-5 border-bottom" id="features">
+            <div class="container px-5 my-5">
+                <div class="row gx-5">
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-collection"></i></div>
+                        <h2 class="h4 fw-bolder">Быстрота выполнения</h2>
+                        <p>Обычно на выполнение задачи уходит от 1 дня. Стараюсь не тянуть время, поэтому сложные задачи выполняются максимум за 1-3 недели.</p>
+                        <a class="text-decoration-none" href="#!">
+                            Подробнее
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-building"></i></div>
+                        <h2 class="h4 fw-bolder">Эффективность и безопасность</h2>
+                        <p>Я всегда стараюсь оптимизировать и ускроить любой продукт. Также если задача сделать бэкенд или приложение, стараюсь сделать как можно больше проверок для защиты от случайного вмешательства.</p>
+                        <a class="text-decoration-none" href="#!">
+                            Подробнее
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-toggles2"></i></div>
+                        <h2 class="h4 fw-bolder">Гибкость</h2>
+                        <p>Один и тот же продукт создаваемый мной, можно легко модифицировать и улучшить под любые требования.</p>
+                        <p>Также знаю несколько языков программирования. Python, C, C#, Java.</p>
+                        <a class="text-decoration-none" href="#!">
+                            Подробнее
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Portfolio section-->
+        <section class="bg-light py-5 border-bottom" id="portfolio">
+            <div class="container px-5 my-5">
+                <div class="text-center mb-5">
+                    <h2 class="fw-bolder">Портфолио</h2>
+                    <p class="lead mb-0">Лучшие из моих открытых проектов</p>
+                </div>
+                <div class="row gx-5 justify-content-center">
+                    <!-- Pricing card free-->
+                    <div class="col-lg-6 col-xl-4">
+                        <div class="card mb-5 mb-xl-0">
+                            <div class="card-body p-5">
+                                <h3>SynapseOS</h3>
+                                <ul class="list-unstyled mb-4">
+                                    <li class="mb-2">
+                                        <i class="bi bi-check text-primary"></i>
+                                        <strong>Бесплатная операционная система</strong>
+                                    </li>
+                                    <li class="mb-2">
+                                        <i class="bi bi-check text-primary"></i>
+                                        Легковесное ядро
+                                    </li>
+                                    <li class="mb-2 text-muted">
+                                        <i class="bi bi-x"></i>
+                                        Совместимость с KolibriOS
+                                    </li>
+                                    <li class="mb-2 text-muted">
+                                        <i class="bi bi-x"></i>
+                                        ELF заголовок исполняемых файлов
+                                    </li>
+                                </ul>
+                                <div class="d-grid"><a class="btn btn-outline-primary" href="#!">Подробнее</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <!-- Testimonials section-->
+        <section class="py-5 border-bottom">
+            <div class="container px-5 my-5 px-5">
+                <div class="text-center mb-5">
+                    <h2 class="fw-bolder">Последние отзывы</h2>
+                    <p class="lead mb-0">Обновляются раз в неделю</p>
+                </div>
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-lg-6">
+                        <!-- Testimonial 1-->
+                        <div class="card mb-4">
+                            <div class="card-body p-4">
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0"><i class="bi bi-chat-right-quote-fill text-primary fs-1"></i></div>
+                                    <div class="ms-4">
+                                        <p class="mb-1">Всё понравилось, заказ сделали быстро, и именно так как хотел, всё чётко и качественно!<br>100 из 10</p>
+                                        <div class="small text-muted">- Дима Чебурек</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Testimonial 2-->
+                        <div class="card">
+                            <div class="card-body p-4">
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0"><i class="bi bi-chat-right-quote-fill text-primary fs-1"></i></div>
+                                    <div class="ms-4">
+                                        <p class="mb-1">Недорого, быстро, качественно. Обо всех проблемах сообщает сразу.</p>
+                                        <div class="small text-muted">- Лена Бисикова</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact section-->
+        <section class="bg-light py-5">
+            <div class="container px-5 my-5 px-5">
+                <div class="text-center mb-5">
+                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-envelope"></i></div>
+                    <h2 class="fw-bolder">Контакты</h2>
+                    <p class="lead mb-0">Открыт к предложениям</p>
+                </div>
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-lg-6">
+                        <ul>
+                            <li>ВКонтакте - <a href="https://vk.com/0Nera">Арен Елчинян</a></li>
+                            <li>Телеграм - <a href="t.me/Nera00">Nera00</a></li>
+                            <li>Github - <a href="https://github.com/0Nera">0Nera</a></li>
+                            <li>Email - slizen.can@gmail.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container px-5"><p class="m-0 text-center text-white">Copyright &copy; <a href="https://vk.com/0Nera">Aren Elchinyan</a> 2021</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
 </html>
