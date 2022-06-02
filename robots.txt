@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /404
+Sitemap: http://https://0nera.github.io/sitemap.xml
+Host: https://0nera.github.io
