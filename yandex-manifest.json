@@ -1,0 +1,23 @@
+{
+    "name": "арен Елчинян",
+    "lang": "ru",
+    "icons": [
+      {
+         "src": "https://0nera.github.io/assets/favicon.ico",
+         "sizes": "75x75",
+         "type": "image/x-icon"
+      }
+    ],
+    "start_url": "https://0nera.github.io/",
+    "scope": "https://0nera.github.io/",
+    "yandex": {
+      "manifest_version": 1,
+      "app_version": "1.0.0",
+      "cache": {
+        "resources": [
+          "https://0nera.github.io/css/styles.css",
+          "/https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+        ]
+      }
+    }
+  }
